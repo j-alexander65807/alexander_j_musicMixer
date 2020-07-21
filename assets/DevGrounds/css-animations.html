@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>DevGrounds</title>
+    <link rel="stylesheet" type="text/css" media="screen" href="css/reset.css">
+    <link rel="stylesheet" type="text/css" media="screen" href="css/devgrounds-master.css">
+</head>
+<body>
+    <div class="master_container">
+        <header>
+            <img alt="Dev-Grounds Banner" src="images/devgrounds-banner.jpg">
+            <div class="titles">
+                <h1>DevGrounds</h1>
+                <h2>CSS-Animations</h2>
+            </div>
+            <div class="links">
+                <h3>Links:</h3>
+                <ul>
+                    <li><a href="design-notes_mm.pdf">Music-Mixer: Design Notes</a></li>
+                    <li><a href="../dev-notes_mm.pdf">Music-Mixer: DevNotes</a></li>
+                </ul>
+            </div>
+            <div class="c0mments">
+                <p class="c0mment">Main Application: Interactive Music-Mixer Project</p>
+                <p class="c0mment">Alt Applications: FIP and Portfolio Projects (CV Comics, SF 10yr-Plan, and more)</p>
+            </div>
+            <div class="controls">
+                <button class="bg_next">></button>
+                <label for="bg_num">Background: 1 of (</label>
+                <input id="bg_num" name="bg_num" type="number" min="1" max="9" value="1">
+                <p>)</p>
+            </div>
+        </header>
+        <main class="anim">
+            <section class="poster_anim hover_anim">
+                 <div class="anim_container"><div class="anim_image" id="hover1" data-offset="0"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover2" data-offset="1"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover3" data-offset="2"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover4" data-offset="3"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover5" data-offset="4"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover6" data-offset="5"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover7" data-offset="6"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover8" data-offset="7"></div></div>
+                 <div class="anim_container"><div class="anim_image" id="hover9" data-offset="8"></div></div>
+                 
+            </section> 
+
+
+
+        </main>
+        <footer>
+            <p>Author: Joshua Alexander</p>
+            <p>This project is licensed under MIT License</p>
+        </footer>
+    </div>
+    <script src="css-animations.js"></script>
+</body>
+</html>
